@@ -119,7 +119,6 @@ fi
 echo """API_ID = $api_id
 API_HASH = $api_hash
 BOT_TOKEN = $bot_token
-START_IMG_URL = $start_img_url
 SUPPORT_CHAT = $support_chat
 SUPPORT_CHANNEL = $support_channel
 MONGO_DB_URI = $mongo_db
