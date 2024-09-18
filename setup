@@ -109,8 +109,6 @@ pprint "\nSUPPORT CHANNEL: "; color_reset; read support_channel
 pprint "\nMONGO DB URI: "; color_reset; read mongo_db
 pprint "\nLOG GROUP ID: "; color_reset; read logger
 pprint "\nSTRING SESSION: "; color_reset; read string_session
-pprint "\nSTRING SESSION2: "; color_reset; read string_session2
-pprint "\nSTRING SESSION3: "; color_reset; read string_session3
 
 pprint "\n\nProcessing your vars, wait a while !" "cgreen"
 
@@ -127,8 +125,6 @@ SUPPORT_CHANNEL = $support_channel
 MONGO_DB_URI = $mongo_db
 LOGGER_ID = $logger
 STRING_SESSION = $string_session
-STRING_SESSION2 = $string_session2
-STRING_SESSION3 = $string_session3
 OWNER_ID = $ownid""" > .env
 clear
 
